@@ -1,0 +1,54 @@
+{
+  "name": "lumen-ds",
+  "version": "2.0.0",
+  "description": "Lumen Design System — React components inspired by Dynamics 365 and modern workspace UI",
+  "type": "module",
+  "main": "./dist/lumen-ds.cjs",
+  "module": "./dist/lumen-ds.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/lumen-ds.js",
+      "require": "./dist/lumen-ds.cjs"
+    },
+    "./styles.css": "./dist/lumen-ds.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "vite --config demo/vite.config.ts",
+    "build": "vite build",
+    "build:demo": "vite build --config demo/vite.config.ts",
+    "preview": "vite preview --config demo/vite.config.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.5.0"
+  },
+  "keywords": [
+    "react",
+    "design-system",
+    "ui",
+    "dynamics-365",
+    "lumen",
+    "components"
+  ],
+  "license": "MIT"
+}
