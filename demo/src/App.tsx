@@ -32,6 +32,7 @@ import {
   type LumenTheme,
   type ProcessStep,
 } from 'lumen-ds';
+import { ExtendedCatalog } from './ExtendedCatalog';
 import { PALETTE_BASES, buildScale } from './palette';
 
 const SECTIONS = [
@@ -47,6 +48,10 @@ const SECTIONS = [
   'Carte processus',
   'En-tête de liste',
   'Tableau éditable',
+  'Offcanvas & contrôles',
+  'Formulaires avancés',
+  'Navigation & contenu',
+  'Table & feedback',
 ];
 
 const PRINCIPLES: Array<[string, string]> = [
@@ -1089,6 +1094,8 @@ function Showcase() {
               {activeHint}
             </div>
           </section>
+
+          <ExtendedCatalog />
         </main>
       </div>
 

@@ -50,12 +50,13 @@ Controlled updates: pass `onThemeChange`, `onStyleChange`, `onDensityChange`.
 
 ## Components
 
-**Actions:** `Button`, `IconButton`, `Chip`  
-**Status:** `Badge`, `Kpi`, `Progress`, `Skeleton`  
-**Forms:** `Field`, `Input`, `Select`, `Textarea`, `SearchField`  
-**Chrome:** `Card`, `Tabs`, `Banner`, `Dialog`, `ToastProvider` / `useToast`  
-**Layouts:** `AppShell`, `SplitLayout`, `SideNav`  
-**Patterns:** `RecordHeader`, `ProcessStepper`, `ListHeader`, `DataGrid`
+**Actions:** `Button`, `IconButton`, `Chip`, `Dropdown`  
+**Status:** `Badge`, `Kpi`, `Progress`, `Skeleton`, `Spinner`  
+**Forms:** `Field`, `Input`, `Select`, `Textarea`, `SearchField`, `Checkbox`, `Radio`, `Switch`, `Range`, `InputGroup`, `FloatingLabel`, `FloatingSelect`, `Form` / `FormRow` / `FormActions`  
+**Chrome:** `Card`, `Tabs`, `Banner`, `Dialog`, `Offcanvas`, `ToastProvider` / `useToast`, `Popover`, `Tooltip`  
+**Navigation / content:** `Breadcrumb`, `Accordion`, `Carousel`, `Collapse`, `ListGroup`, `Scrollspy`  
+**Data:** `Table` + `Pagination`, `DataGrid`, `ListHeader`  
+**Layouts:** `AppShell`, `SplitLayout`, `SideNav`, `RecordHeader`, `ProcessStepper`
 
 ### List + editable grid
 
