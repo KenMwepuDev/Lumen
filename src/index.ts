@@ -15,6 +15,9 @@ export type { LumenProviderProps, LumenContextValue } from './components/LumenPr
 export { Button } from './components/Button';
 export type { ButtonProps } from './components/Button';
 
+export { ImageButton } from './components/ImageButton';
+export type { ImageButtonProps, ImageButtonAlign } from './components/ImageButton';
+
 export { IconButton } from './components/IconButton';
 export type { IconButtonProps } from './components/IconButton';
 

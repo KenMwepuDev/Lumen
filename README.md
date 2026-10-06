@@ -50,7 +50,7 @@ Controlled updates: pass `onThemeChange`, `onStyleChange`, `onDensityChange`.
 
 ## Components
 
-**Actions:** `Button`, `IconButton`, `Chip`, `Dropdown`  
+**Actions:** `Button`, `IconButton`, `ImageButton`, `Chip`, `Dropdown`  
 **Status:** `Badge`, `Kpi`, `Progress`, `Skeleton`, `Spinner`  
 **Forms:** `Field`, `Input`, `Select`, `Textarea`, `SearchField`, `Checkbox`, `Radio`, `Switch`, `Range`, `InputGroup`, `FloatingLabel`, `FloatingSelect`, `Form` / `FormRow` / `FormActions`  
 **Chrome:** `Card`, `Tabs`, `Banner`, `Dialog`, `Offcanvas`, `ToastProvider` / `useToast`, `Popover`, `Tooltip`  
